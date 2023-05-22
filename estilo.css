@@ -1,0 +1,18 @@
+body,h1,h2  {font-family: "Raleway", sans-serif}
+
+
+
+.centrado  {text-align: center;}
+.texto-Blanco{color:white!important}
+.texto-Gris{color:gray!important}
+
+.texto-filtroGris{filter:grayscale(50%)}
+
+
+.bgimg1, bgimg2, bgimg3 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;}
+.bgimg1  {background-image: url("ba1.jpg")}
+.bgimg2  {background-image: url("ba2.jpg")}
+.bgimg3  {background-image: url("ba3.jpg")}
