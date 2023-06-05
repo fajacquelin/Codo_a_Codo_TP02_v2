@@ -52,7 +52,11 @@
     function Resumen(){
          var precio=200;
          var descuento = document.getElementById("Descuento").value;
-         var resultado=(precio*descuento)/100;
+         var resultado = 0;
+         if (descuento <> 100) { 
+                var resultado=(precio*descuento)/100;
+         }   
+         var resultado= precio - resultado;
          var resultado= resultado * document.getElementById("Cantidad").value
          document.getElementById("Valor_pagar").value = 'Total a Pagar: $ '+ resultado;
        }
